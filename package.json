@@ -1,0 +1,31 @@
+{
+  "name": "bot-webui",
+  "version": "1.0.0",
+  "description": "Simple and modern web-based chat interface for bots",
+  "main": "index.html",
+  "scripts": {
+    "start": "python3 -m http.server 8000 || python -m SimpleHTTPServer 8000",
+    "dev": "python3 -m http.server 3000",
+    "lint": "echo 'No linting configured yet'",
+    "test": "echo 'No tests configured yet'"
+  },
+  "keywords": [
+    "bot",
+    "chat",
+    "webui",
+    "interface",
+    "javascript",
+    "css",
+    "html"
+  ],
+  "author": "Bot-WebUI",
+  "license": "GPL-3.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/getSono/Bot-WebUI.git"
+  },
+  "bugs": {
+    "url": "https://github.com/getSono/Bot-WebUI/issues"
+  },
+  "homepage": "https://github.com/getSono/Bot-WebUI#readme"
+}
